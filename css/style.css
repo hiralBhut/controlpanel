@@ -1,0 +1,62 @@
+
+#header{background: #2c2626;}
+.logo a{color: #fff; padding: 16px 0; display: inline-block;}
+.header-right{text-align: right;}
+.user-box{background: #090909; color: #fff; text-align: center; padding: 15px 12px; max-width: 115px; float: right; position: relative; cursor:pointer;}
+
+/*.dropdown-content{position: absolute; display: none;z-index: 1; min-width: 160px; background-color:#fff; box-shadow: 10px 5px 10px #9d9a9a;}
+.user-box:hover .dropdown-content{display: block;}
+.dropdown-content a {text-decoration: none; color:black; font-family:'Source Sans Pro', sans-serif; display:inline-block;}
+ul.drop {list-style-type: none; margin: 0; padding:0;}
+ul.drop li{padding:10px 0;}*/
+.header-right .fa-user{display: inline-block; font-size: 25px;}
+
+#mid-content{margin: 25px 0 0 0;}
+/*#mid-content .fa-briefcase{display:inline-block; font-size: 25px; color:#5f9acd;}*/
+#mid-content h4 i {display:inline-block; font-size: 25px; color:#5f9acd;}
+
+#mid-content .container .row .col-md-3 h4 ,#mid-content .container .row .col-md-9 h4 { color:#5f9acd; padding:0px 0px 25px 0px; border-bottom: 1px solid #eeeeee}
+#mid-content .container .row .col-md-9 h4 i {padding-right: 7px;}
+ul.menu {list-style-type: none; margin-top:25px; padding:0;}
+ul.menu li a {text-decoration: none; display:block; color:#007bff; font-family: font-family: 'Source Sans Pro'; } 
+ul.menu li { padding:12px 0 12px 22px; }
+ul.menu li:hover { background-color: #47a7c4; font-weight:600;}
+ul.menu li:hover a {color:#fff;}
+.menu .icon_size {font-size:25px; padding-right:15px;}
+.messagebox, .processing_msg{background-color: #f5f5f5; border-radius: 5px; color:#000; padding:20px 0 20px 15px; font-family: 'Source Sans Pro', sans-serif;}
+.messagebox{margin-top:10px;}
+hr{border-width: 1px;border-color: #eeeeee; margin:15px 0 15px 0;}
+.processing_statusBox{border:1px solid #eeeeee; max-height: 600px; border-radius: 5px;}
+ul.processing_state{list-style-type:none; padding:10px; margin:40px 0 0 0;}
+ul.processing_state li{background-color:#f5f5f5; margin:0 0 35px 0; border-radius:3px; width: 100%; position: relative;}
+ul.processing_state li label {position: absolute; top: -27px; }
+ul.processing_state li span{border-radius:3px; display: inline-block;}
+ul.processing_state li.complete span{background: #5cb85c; width: 70%;}
+ul.processing_state li.prog span{background: #5bc0de; width: 20%;}
+ul.processing_state li.risk span{background: #d9534f; width: 80%;}
+ul.toolbar-top{list-style-type: none; margin:10px 0; padding:0 0 20px 6px; border-bottom: 1px solid #eeeeee;}
+ul.toolbar-top li a i{color:#5f9acd;font-size: 25px;}
+ul.toolbar-top li {display:inline-block; padding:10px 26px;}
+ul.toolbar-top li:hover{ background-color:#47a7c4; } 
+ul.toolbar-top li:hover i { color:#fff; } 
+.textbox{font-family:font-family: 'Source Sans Pro', sans-serif; color: #000; border-bottom: 1px solid #eeeeee; padding-bottom: 25px;}
+ul.toolbar-bottom{list-style-type: none; background-color:#5bc0de; border-radius: 5px; padding: 0px; margin:0px;}
+ul.toolbar-bottom li{display:inline-block;  border-left: 2px solid #3ca4c3;}
+ul.toolbar-bottom li:hover{background-color: #47a7c4;}
+ul.toolbar-bottom li:hover a {font-weight:600;}
+ul.toolbar-bottom li:first-child{border-left:none; /*padding-left: 25px;*/}
+/*ul.toolbar-bottom li:last-child{ padding-left: 31px;}*/
+ul.toolbar-bottom li a {text-decoration: none; text-align: center; color: #fff; display: inline-block; padding: 10px 25px;}
+ul.toolbar-bottom li a i{font-size: 20px; color:#fff; display: block;}
+.line {border:1px solid #eeeeee;margin-top: 35px;}
+h4.filepart{color:#5f9acd;font-size: 25px; padding-top: 11px;}
+#footer{background: #2c2626; color: #fff;text-align: center;padding:15px 0;}
+
+.dropdown a {text-decoration:none; color:#fff;}
+.header-right li.dropdown {position: relative; padding: 15px 0;}
+.header-right li .dropdown-menu{position: absolute; max-width: 180px; right: 0 !important; left: inherit !important;}
+.header-right li:hover .dropdown-menu{display:block;}
+ul.dropdown-menu {box-shadow: 10px 5px 15px #9d9a9a; margin:0; padding:10px 0;}
+ul.dropdown-menu li{padding-left: 20px;}
+ul.dropdown-menu li a { color:#000; display: inline-block; text-decoration: none; font-family:'Source Sans Pro', sans-serif; }
+.fa-shopping-bag {padding-right:5px;}
